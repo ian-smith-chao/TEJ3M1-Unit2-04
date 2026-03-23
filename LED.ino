@@ -49,5 +49,9 @@ void loop()
   digitalWrite(12, LOW);
   digitalWrite(13, HIGH);
   delay(1000); // Wait for 1000 millisecond(s)
-  
+ 
+  // Turn on LED 11, 12, and 13
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+  digitalWrite(13, HIGH);
 }
